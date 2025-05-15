@@ -188,12 +188,6 @@ Explore our available technical docs (more coming soon):
 - [Frontend Interface](docs/frontend_api.md)  
 
 ---
-## Architecture
-<div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img src="docs/imgs/flowchart.png" width="1000"/>
-</div>
-
----
 ## License
 
 This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
