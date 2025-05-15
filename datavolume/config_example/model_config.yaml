@@ -1,0 +1,41 @@
+model_registry:
+  - id: 1
+    type: embedding
+    platform: huggingface
+    model_name: BAAI/bge-large-zh-v1.5
+    local_path: ${HF_LOCAL_PATH}
+    enabled: true
+
+  - id: 2
+    type: embedding
+    platform: dashscope
+    model_name: text-embedding-v3
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    api_key: ${DASHSCOPE_API_KEY}
+    enabled: true
+
+  - id: 3
+    type: chat
+    platform: dashscope
+    model_name: qwen-max-latest
+    readable_name: "通义千问MAX"
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    api_key: ${DASHSCOPE_API_KEY}
+    enabled: true
+
+  - id: 4
+    type: chat
+    platform: deepseek
+    model_name: deepseek-chat
+    readable_name: "DeepSeek-V3"
+    api_base: https://api.deepseek.com/v1
+    api_key: ${DEEPSEEK_API_KEY}
+    enabled: true
+  
+  - id: 5
+    type: sentence_splitter
+    platform: nltk
+    model_name: nltk
+    readable_name: "NLTK"
+    local_path: ${NLTK_LOCAL_PATH}
+    enabled: true

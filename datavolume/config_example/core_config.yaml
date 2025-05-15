@@ -1,0 +1,19 @@
+input_config:
+  type: file
+  file_type:
+    - text
+    - csv
+  root_dir: "appdata"
+  base_dir: "input"
+  file_encoding: utf-8
+  text_file_pattern: "(?P<title>[^\\\\/]+)\\.txt$"
+  csv_file_pattern: "(?P<title>[^\\\\/]+)\\.csv$"
+  text_column: "text"
+  title_column: "title"
+
+chunk_config:
+  size: 1000
+  overlap: 100
+  group_by_columns: [id]
+  strategy: "sentences" # Optional values: "sentences", "tokens"
+  default_encoding_model: "deepseek_tokenizer" # Optional values: "dashscope_tokenizer", "deepseek_tokenizer"

@@ -1,0 +1,11 @@
+web_config:
+  allow_origins: ["*"]
+  allow_credentials: true
+  allow_methods: ["*"]
+  allow_headers: ["*"]
+
+memory_config:
+  result_retention_time: 1800
+  task_timeout: 300
+  subpub_max_retry: 3
+  subpub_retry_delay: 2.0

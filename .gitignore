@@ -1,0 +1,44 @@
+# --- Node / Vue ---
+node_modules/
+dist/
+build/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*.local
+
+
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg
+*.egg-info/
+*.log
+*.pot
+*.pyc
+*.pkl
+*.mypy_cache/
+*.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+*.coverage
+.coverage.*
+htmlcov/
+
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+/models/
+/datavolume/config/

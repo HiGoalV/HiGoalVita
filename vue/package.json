@@ -1,0 +1,58 @@
+{
+  "name": "my-vue3-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "core-js": "^3.8.3",
+    "dompurify": "^3.2.5",
+    "highlight.js": "^11.11.1",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "markdown-it-typographer": "^1.6.0",
+    "mobx": "^6.13.7",
+    "mobx-react-lite": "^4.1.0",
+    "openai": "^4.95.1",
+    "socket.io-client": "^3.1.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.0",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

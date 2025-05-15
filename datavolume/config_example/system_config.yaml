@@ -1,0 +1,89 @@
+base_config:
+    root_dir: datavolume
+    config_dir: config
+    log_dir: logs
+    file_encoding: utf-8
+    time_zone: Asia/Shanghai
+
+config_file_config:
+  config_file_for_engine: "engine_config.yaml"
+  config_file_for_core: "core_config.yaml"
+  config_file_for_model: "model_config.yaml"
+
+database_config:
+  memery_database_config:
+    type: "redis"
+  
+  relation_database_config:
+    type: "sqlite"
+  
+  vector_database_config: 
+    type: "lancedb"
+
+  redis_config:
+    host: "localhost"
+    port: 6379
+    password: ""
+    db: 0
+    max_connections: 10
+    pool_recycle: 3600
+  
+  mysql_config:
+    host:
+    port:
+    user:
+    password:
+    database:
+  
+  sqlite_config:
+    path: "appdata/database/sqlite/example_sqlite.db"
+  
+  oceanbase_relational_config:
+    user: 
+    password: 
+    host: 
+    port: 
+    database: 
+  
+  lancedb_config:
+    path: "appdata/database/lancedb"
+    overwrite: true
+    container_name: "defult"
+    default_top_k: 3
+    default_similarity_threshold: 0.5
+  
+  oceanbase_vector_config:
+    host: 
+    port: 
+    user: 
+    password: 
+    database: 
+    overwrite: 
+    container_name: 
+    default_top_k: 
+    default_similarity_threshold: 
+
+
+embedding_config:
+  embedding_model_config:
+    type: "huggingface_embedding" # Optional values: "openai_embedding", "huggingface_embedding"
+  
+  huggingface_embedding_config:
+    default_model: "BAAI/bge-large-zh-v1.5"
+    device: "cpu"
+    parallelization_num_threads: 50
+    parallelization_stagger: 0.3
+    async_mode: "threaded"
+  
+  openai_embedding_config:
+    default_model: "text-embedding-v3"
+    async_mode: "threaded"
+
+language_model_config:
+  default_model: "deepseek-chat"
+  default_encoding_model: "deepseek_tokenizer"
+  model_supports_json: true
+  parallelization_num_threads: 50
+  parallelization_stagger: 0.3
+  temperature: 0.3
+  async_mode: "threaded"
