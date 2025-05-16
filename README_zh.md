@@ -97,7 +97,7 @@
 ### 后端独立模式
 ```bash
 # 克隆仓库
-git clone https://github.com/HiGoalV/HiGoalV-AIOps-dev.git
+git clone https://github.com/HiGoalV/HiGoalVita.git
 
 # 安装依赖
 poetry install
@@ -110,7 +110,7 @@ higoalcore query --query "这是一个示例问题"
 ### 完整套件
 ```bash
 # 克隆仓库并安装依赖
-git clone https://github.com/HiGoalV/HiGoalV-AIOps-dev.git
+git clone https://github.com/HiGoalV/HiGoalVita.git
 poetry install
 
 # 拉取并启动 Redis 容器
@@ -135,5 +135,5 @@ cd vue && npm run serve
 
 ## 💼 关于
 
-HiGoalV-AIOps 由 HiGoal Corporation 开发维护，专注于基于大型语言模型的企业级知识解决方案。  
+HiGoalVita 由 HiGoal Corporation 开发维护，专注于基于大型语言模型的企业级知识解决方案。  
 商业合作、集成或伙伴关系洽谈，请联系 **partner@higoall.com** 或访问 **https://higoal.com**。

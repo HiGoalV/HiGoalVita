@@ -1,5 +1,5 @@
 # 📦 Full Installation Guide
-To fully enable all features of **HiGoalV-AIOps**, you need to install the following components:
+To fully enable all features of **HiGoalVita**, you need to install the following components:
 1. 🐍 **HiGoalV Core Engine** (Python backend)  
 2. 🐇 **Redis Service** – Redis  
 3. 🗃️ **Database** – MySQL, OceanBase, or SQLite 
@@ -23,7 +23,7 @@ conda install poetry
 
 ```bash
 # Navigate to the project directory
-cd HiGoalV-AIOps-dev
+cd HiGoalVita
 # Install dependencies
 poetry install
 ```
