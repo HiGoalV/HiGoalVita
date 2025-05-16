@@ -1,8 +1,8 @@
 [English](./README.md) | [中文](./README_zh.md)
 
-# 🚀 HiGoalV-AIOps – 模块化、可扩展、可运营的 RAG 框架
+# 🚀 HiGoalVita – 模块化、可扩展、可运营的 RAG 框架
 
-**HiGoalV-AIOps** 是一个生产就绪的检索增强生成（RAG）平台，提供完整的全栈解决方案，包括服务器、后端服务、前端界面和异步任务管道，可让用户向 LLM 提问并获得基于客户数据的回答。
+**HiGoalVita** 是一个生产就绪的检索增强生成（RAG）平台，提供完整的全栈解决方案，包括服务器、后端服务、前端界面和异步任务管道，可让用户向 LLM 提问并获得基于客户数据的回答。
 
 我们的开源框架具有模块化和可扩展性，原生集成：关系型数据库（SQLite、MySQL、OceanBase）、向量存储（LanceDB、OceanBase）、缓存后端（内存、Redis、文件）。面向真实生产环境打造，HiGoalV-AIOps 提供企业级可靠性、可伸缩性和适应性——支持 Docker 化部署，并提供可选的 Web 界面。
 
@@ -12,7 +12,7 @@
 ⚒️ 项目架构
 ![1](https://github.com/user-attachments/assets/a3cc0bad-d331-4ef5-8272-10e9a5257680)
 
-## HiGoalV-AIOps组件：
+## HiGoalVita组件：
   - 数据层​：数据源​/元数据存储/LLM网关​/向量数据库/索引作业/API服务器
   - 核心服务层：企业知识库/数字员工/服务智能体/对客智能路由
   - 产品层：语料工程/提示词工程/应用工具层/可插拔的Agent插件
@@ -83,7 +83,7 @@
 
 ## 安装指南
 
-要体验 HiGoalV-AIOps 的全部功能，请安装以下组件：  
+要体验 HiGoalVita 的全部功能，请安装以下组件：  
 1. **Python 引擎**：核心引擎、API Server 及 CLI 工具  
 2. **中间件**：Redis  
 3. **数据库**：SQLite、MySQL 或 OceanBase
