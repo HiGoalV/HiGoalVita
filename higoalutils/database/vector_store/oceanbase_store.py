@@ -35,6 +35,7 @@ class OBVectorStore(VectorStoreBase):
         self.top_k = ob_cfg.default_top_k  # type: ignore
         self.similarity_threshold = ob_cfg.default_similarity_threshold  # type: ignore
         self.overwrite = ob_cfg.overwrite  # type: ignore
+        self.database = ob_cfg.database # type: ignore
 
         self.client = ObVecClient(
             uri=f"{ob_cfg.host}:{ob_cfg.port}",  # type: ignore
@@ -64,7 +65,7 @@ class OBVectorStore(VectorStoreBase):
     def load_documents(self, documents: List[VectorStoreDocument], table_name: str, overwrite: bool | None = None) -> None:
         overwrite = overwrite if overwrite is not None else self.overwrite
 
-        self.client.perform_raw_text_sql("USE 101_database")
+        self.client.perform_raw_text_sql(f"USE {self.database}")
 
         if overwrite:
             self.client.perform_raw_text_sql(f"DROP TABLE IF EXISTS `{table_name}`")
