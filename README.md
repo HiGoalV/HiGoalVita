@@ -40,7 +40,7 @@ By combining RAG, intelligent agents, and graph-based indexing, HiGoalVita trans
 ⚒️ Architecture
 ![1](https://github.com/user-attachments/assets/a3cc0bad-d331-4ef5-8272-10e9a5257680)
 
-## HiGoalV-AIOps Components:
+## HiGoalVita Components:
   - Data Layer: Data Sources/Metadata Storage/LLM Gateway/Vector Database/Indexing Jobs/API Server
   - Core Services Layer: Enterprise Knowledge Base/Digital Employees/Service Agents/Customer-facing Intelligent Routing
   - Product Layer: Corpus Engineering/Prompt Engineering/Application Tools Layer/Pluggable Agent Plugins
