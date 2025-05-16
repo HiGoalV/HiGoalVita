@@ -12,11 +12,11 @@ Our open-source framework is modular and extensible, with native integrations fo
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Architecture](#architecture)
 - [Features](#features)
 - [Open-Source Roadmap](#open-source-roadmap)
 - [Getting Started](#quick-start)
 - [Devloper Guide](#developer-guide)
-- [Architecture](#architecture)
 - [License](#license)
 - [About](#about)
 
@@ -37,20 +37,19 @@ By combining RAG, intelligent agents, and graph-based indexing, HiGoalVita trans
 
 
 ---
-⚒️ Architecture
-![1](https://github.com/user-attachments/assets/a3cc0bad-d331-4ef5-8272-10e9a5257680)
+<h2 id="architecture">⚒️ Architecture</h2>
 
-## HiGoalVita Components:
+<p style="margin: 20px 0;">
+  <img src="docs/imgs/flowchart.png" alt="Flowchart" width="100%" />
+</p>
+
+### Components:
   - Data Layer: Data Sources/Metadata Storage/LLM Gateway/Vector Database/Indexing Jobs/API Server
   - Core Services Layer: Enterprise Knowledge Base/Digital Employees/Service Agents/Customer-facing Intelligent Routing
   - Product Layer: Corpus Engineering/Prompt Engineering/Application Tools Layer/Pluggable Agent Plugins
   - Model Services Layer: Fine-tuning Framework/Vertical Domain Pre-training/Hybrid Deployment
   - Interaction Layer: Web UI
 
-**Customize for Your Use Case**
-  - Custom Dataloaders
-  - Custom Embedder
-  - Custom VectorDB
     
 <h2 id="features">✨ Features</h2>
 
@@ -184,7 +183,6 @@ Each module is loosely coupled, making it easy to customize or extend based on y
 We’re gradually releasing detailed documentation for each module. Stay tuned as more links become available.
 
 Explore our available technical docs (more coming soon):
-- [Developer Manual](docs/developer_manual.md)  
 - [Frontend Interface](docs/frontend_api.md)  
 
 ---
@@ -214,3 +212,5 @@ We’re also hiring talented Software Engineers, BI Analysts, and AI Specialists
     </td>
   </tr>
 </table>
+
+
