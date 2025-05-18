@@ -1,0 +1,11 @@
+NOTICE
+
+This product includes components from the following third-party projects:
+
+1. Microsoft 
+   - Source code: https://github.com/microsoft/graphrag
+   - License: MIT License (full text available in LICENSES/MIT_LICENSE)
+   - Copyright (c) 2024 Microsoft Corporation. All rights reserved.
+
+The remaining codebase is licensed under the Apache License 2.0.  
+See the LICENSE file for the full text of the Apache License 2.0.

@@ -129,7 +129,7 @@ cd vue && npm run serve
 
 ## 📜 许可协议
 
-本项目采用 Apache License 2.0 许可，详见 LICENSE。
+本项目采用 Apache License 2.0 许可，详见 [LICENSE](LICENSES/APACHE_LICENSE)。
 
 ---
 
@@ -142,4 +142,7 @@ HiGoalVita 由 HiGoal Corporation 开发维护，专注于基于大型语言模�
 
 ## 💡 鸣谢
 
-本项目遵循微软开源协议，感谢其对开发者社区的长期贡献与支持。
+本项目包含来自微软 [graphrag](https://github.com/microsoft/graphrag) 的未修改代码，相关部分基于 [MIT 许可协议](https://opensource.org/licenses/MIT) 发布。  
+我们感谢微软对开源社区的贡献。
+
+虽然本项目整体以 Apache License 2.0 发布，但所包含的 MIT 代码仍保留其原始许可协议。

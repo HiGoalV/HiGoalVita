@@ -5,7 +5,7 @@
 It delivers a full-stack solution including server, backend services, frontend UI, and asynchronous task pipelines,
  so users can pose natural-language queries to an LLM and receive answers grounded in their own customer data.
 
-Originally developed and proven in commercial deployments by the HiGoal team, HiGoalVita is now open-sourced to empower the community with a flexible, production-grade RAG solution.
+Developed and proven in commercial deployments by the HiGoal team, HiGoalVita is now open-sourced to empower the community with a flexible, production-grade RAG solution.
 Our open-source framework is modular and extensible, with native integrations for Relational databases, Vector stores, and other operational modules.
 
 ---
@@ -186,15 +186,16 @@ Explore our available technical docs (more coming soon):
 - [Frontend Interface](docs/frontend_api.md)  
 
 ---
-## License
+## 📜 License
 
-This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSES/APACHE_LICENSE) for details.
 
 ---
 
-## 💡 Acknowledgement
+## 💼 Acknowledgements
 
-Licensed under the Microsoft open-source license, with gratitude for Microsoft's enduring support and contributions to developers worldwide.  
+This project incorporates unmodified code from Microsoft's [graphrag](https://github.com/microsoft/graphrag), available under the [MIT License](https://opensource.org/licenses/MIT). We express our gratitude to Microsoft for their contributions to the open-source community.
+The combined work is independently licensed under the [Apache License 2.0](LICENSES/APACHE_LICENSE).
 
 ---
 
