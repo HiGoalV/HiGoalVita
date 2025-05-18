@@ -192,6 +192,12 @@ This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) fo
 
 ---
 
+## 💡 Acknowledgement
+
+Licensed under the Microsoft open-source license, with gratitude for Microsoft's enduring support and contributions to developers worldwide.  
+
+---
+
 <h2 id="about">💼 About</h2>
 
 **HiGoalVita** is developed and maintained by **HiGoalV Corporation**, a startup specializing in enterprise-grade AI solutions. Our team delivers end-to-end AI platforms for both B2B (enterprise) and B2C (consumer) markets. 

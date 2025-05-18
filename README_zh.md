@@ -137,3 +137,9 @@ cd vue && npm run serve
 
 HiGoalVita 由 HiGoal Corporation 开发维护，专注于基于大型语言模型的企业级知识解决方案。  
 商业合作、集成或伙伴关系洽谈，请联系 **partner@higoall.com** 或访问 **https://higoal.com**。
+
+---
+
+## 💡 鸣谢
+
+本项目遵循微软开源协议，感谢其对开发者社区的长期贡献与支持。
