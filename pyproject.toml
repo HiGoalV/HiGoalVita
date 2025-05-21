@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "HiGoalRAG"
+name = "HiGoalVita"
 version = "1.0.0"
 description = "HiGoalRAG: A graph-based retrieval-augmented generation (RAG) and agents system."
 authors = [

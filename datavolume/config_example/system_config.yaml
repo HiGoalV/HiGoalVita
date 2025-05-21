@@ -12,13 +12,13 @@ config_file_config:
 
 database_config:
   memery_database_config:
-    type: "redis"
+    type: "redis" # Optional values: "redis"
   
   relation_database_config:
-    type: "sqlite"
+    type: "sqlite" # Optional values: "sqlite", "mysql", "oceanbase", "none"
   
   vector_database_config: 
-    type: "lancedb"
+    type: "lancedb" # Optional values: "lancedb", "oceanbase", "none"
 
   redis_config:
     host: "localhost"
@@ -29,21 +29,21 @@ database_config:
     pool_recycle: 3600
   
   mysql_config:
-    host:
-    port:
-    user:
-    password:
-    database:
+    host: ""
+    port: 0
+    user: ""
+    password: ""
+    database: ""
   
   sqlite_config:
     path: "appdata/database/sqlite/example_sqlite.db"
   
   oceanbase_relational_config:
-    user: 
-    password: 
-    host: 
-    port: 
-    database: 
+    user: ""
+    password: ""
+    host: ""
+    port: 0
+    database: ""
   
   lancedb_config:
     path: "appdata/database/lancedb"
@@ -53,15 +53,15 @@ database_config:
     default_similarity_threshold: 0.5
   
   oceanbase_vector_config:
-    host: 
-    port: 
-    user: 
-    password: 
-    database: 
-    overwrite: 
-    container_name: 
-    default_top_k: 
-    default_similarity_threshold: 
+    host: ""
+    port: 0
+    user: ""
+    password: ""
+    database: ""
+    overwrite: true
+    container_name: "defult"
+    default_top_k: 3
+    default_similarity_threshold: 0.5
 
 
 embedding_config:
@@ -70,7 +70,7 @@ embedding_config:
   
   huggingface_embedding_config:
     default_model: "BAAI/bge-large-zh-v1.5"
-    device: "cpu"
+    device: "cpu" # Optional values: "cpu", "cuda", "mps"
     parallelization_num_threads: 50
     parallelization_stagger: 0.3
     async_mode: "threaded"
