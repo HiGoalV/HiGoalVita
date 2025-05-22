@@ -133,17 +133,22 @@ cd vue && npm run serve
 
 ---
 
-## 💼 关于
-
-HiGoalVita 由 HiGoal Corporation 开发维护，专注于基于大型语言模型的企业级知识解决方案。  
-商业合作、集成或伙伴关系洽谈，请联系*zhuyang@higoall.com**。
-![image](https://github.com/user-attachments/assets/67bb7340-efeb-4032-9995-0fdb8cc265f0)
-
----
-
 ## 💡 鸣谢
 
 本项目包含来自微软 [graphrag](https://github.com/microsoft/graphrag) 的未修改代码，相关部分基于 [MIT 许可协议](https://opensource.org/licenses/MIT) 发布。  
 我们感谢微软对开源社区的贡献。
 
 虽然本项目整体以 Apache License 2.0 发布，但所包含的 MIT 代码仍保留其原始许可协议。
+
+---
+
+## 💼 关于
+
+HiGoalVita 由 HiGoal Corporation 开发维护，专注于基于大型语言模型的企业级知识解决方案。  
+商业合作、集成或伙伴关系洽谈，请联系*zhuyang@higoall.com**
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="docs/imgs/QR_wc.png" alt="WeChat QR Code" width="150"/><br/>
+      <sub>WeChat</sub>
+    </td>
